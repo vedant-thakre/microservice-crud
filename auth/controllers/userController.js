@@ -89,7 +89,6 @@ export const Authcheck = async (req, res, next) => {
   }
 };
 
-
 export const getAllUsers = async (req, res) => {
   try {
     const users = await User.find();
